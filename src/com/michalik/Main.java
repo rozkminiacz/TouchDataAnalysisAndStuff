@@ -1,8 +1,6 @@
 package com.michalik;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -12,8 +10,12 @@ public class Main {
         przetłumacz na język tablic i stringów
         przygotuj do wyświetlania w gnuplocie
          */
+        String dataFileNumber = "666";
+        String userID = "666";
         try{
-            ServerConnection.updateTouchDataFiles();
+            ServerConnection serverConnection = new ServerConnection(userID);
+            serverConnection.setBaseURL("http://rozkmin.esy.es/touch/data"+dataFileNumber);
+            serverConnection.updateTouchDataFiles();
         }
         catch (IOException e){
             e.printStackTrace();
