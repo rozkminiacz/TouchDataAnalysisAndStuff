@@ -6,8 +6,8 @@ package com.michalik;
 public class TouchDataObject {
     private String date;
     private String ID;
-    private long[] release;
-    private long[] press;
+    private int[] release;
+    private int[] press;
 
     public void setDate(String date) {
         this.date = date;
@@ -18,18 +18,28 @@ public class TouchDataObject {
     }
 
     public void setPress(long[] press) {
-        this.press = press;
+        int[] table = new int[press.length-1];
+        for(int i=0; i<table.length; i++){
+            table[i]=(int)(press[i+1]-press[i]);
+            System.out.println(table[i]);
+        }
+        this.press = table;
     }
 
     public void setRelease(long[] release) {
-        this.release = release;
+        int[] table = new int[release.length-1];
+        for(int i=0; i<table.length; i++){
+            table[i]=(int)(release[i+1]-release[i]);
+            System.out.println(table[i]);
+        }
+        this.release = table;
     }
 
-    public long[] getRelease() {
+    public int[] getRelease() {
         return release;
     }
 
-    public long[] getPress() {
+    public int[] getPress() {
         return press;
     }
 
@@ -41,4 +51,12 @@ public class TouchDataObject {
         return ID;
     }
 
+/*    public void countIntervals(){
+        //first is zero
+        int[] table = new int[press.length-1];
+        for(int i=0; i<press.length; i++){
+            table[i]=(int)(press[i+1]-press[i]);
+        }
+
+    }*/
 }

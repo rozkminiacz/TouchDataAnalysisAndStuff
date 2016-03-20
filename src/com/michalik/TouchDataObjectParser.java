@@ -1,7 +1,7 @@
 package com.michalik;
 
 /**
- * Created by michalik on 19.03.16.
+ * Created by mic   halik on 19.03.16.
  */
 public class TouchDataObjectParser {
     private String lines;
@@ -45,7 +45,7 @@ public class TouchDataObjectParser {
                     int n=0;
                         for(n=0; n<releaseTable.length; n++){
                             releaseTable[n]=Long.parseLong(linesTable[i+n]);
-                            System.out.println(releaseTable[n]);
+                            //System.out.println(releaseTable[n]);
                         }
                     touchDataObject[j].setRelease(releaseTable);
                     i+=n;
@@ -72,5 +72,6 @@ public class TouchDataObjectParser {
         //objectcounter
 
     }
+
 
 }

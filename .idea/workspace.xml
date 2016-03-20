@@ -25,21 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TouchDataObjectParser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TouchDataObjectParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/michalik/TouchDataObjectParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26600984">
-              <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding>
+                <element signature="method#TouchDataObjectParser#0;class#TouchDataObjectParser#0" expanded="false" />
+                <element signature="method#parseRawDataToObjects#0;class#TouchDataObjectParser#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TouchDataObject.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TouchDataObject.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/michalik/TouchDataObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.3546798">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -91,8 +94,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/michalik/Main.java" />
         <option value="$PROJECT_DIR$/src/com/michalik/ServerConnection.java" />
-        <option value="$PROJECT_DIR$/src/com/michalik/TouchDataObject.java" />
         <option value="$PROJECT_DIR$/src/com/michalik/TouchDataObjectParser.java" />
+        <option value="$PROJECT_DIR$/src/com/michalik/TouchDataObject.java" />
       </list>
     </option>
   </component>
@@ -469,7 +472,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="735" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -537,7 +540,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="method#TouchDataObjectParser#0;class#TouchDataObjectParser#0" expanded="false" />
+            <element signature="method#parseRawDataToObjects#0;class#TouchDataObjectParser#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -637,18 +643,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michalik/TouchDataObject.java">
+    <entry file="file://$PROJECT_DIR$/src/com/michalik/TouchDataObjectParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="method#TouchDataObjectParser#0;class#TouchDataObjectParser#0" expanded="false" />
+            <element signature="method#parseRawDataToObjects#0;class#TouchDataObjectParser#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michalik/TouchDataObjectParser.java">
+    <entry file="file://$PROJECT_DIR$/src/com/michalik/TouchDataObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26600984">
-          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.3546798">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
