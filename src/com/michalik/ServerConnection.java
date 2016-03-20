@@ -54,5 +54,8 @@ public class ServerConnection {
         this.baseURL = url;
     }
 
+    void saveDataToFile(String lines){
+        //save lines to file for future use, when internet is down
 
+    }
 }

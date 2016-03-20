@@ -27,7 +27,14 @@ public class Main {
 
                 TouchDataObjectParser touchDataObjectParser = new TouchDataObjectParser(rawData, userID);
 
-                touchDataObjectParser.parseRawDataToObjects();
+                //touchDataObjectParser.parseRawDataToObjects();
+                TouchDataObject[] touchDataObjects = touchDataObjectParser.parseRawDataToObjects();
+                for(int i=0; i< touchDataObjects.length; i++){
+                    System.out.println("ID pomiaru: "+touchDataObjects[i].getID());
+                    System.out.println("Data pomiaru: "+touchDataObjects[i].getDate());
+                    System.out.println("Press[17]: "+touchDataObjects[i].getPress()[17]);
+                }
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
