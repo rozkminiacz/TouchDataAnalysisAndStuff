@@ -41,23 +41,23 @@ public class TouchDataObjectParser {
                 }
                 if(linesTable[i].equals("release")){
                     i++;
-                    int[] releaseTable = new int[56];
-                    int k=0;
-                    while(!linesTable[i].equals("endOfRelease")){
-                        releaseTable[k]=Integer.parseInt(linesTable[i]);
-                        i++;
-                        k++;
-                    }
+                    long[] releaseTable = new long[56];
+                    int n=0;
+                        for(n=0; n<releaseTable.length; n++){
+                            releaseTable[n]=Long.parseLong(linesTable[i+n]);
+                            System.out.println(releaseTable[n]);
+                        }
+                    i+=n;
+
                 }
                 if(linesTable[i].equals("press")){
                     i++;
-                    int[] pressTable = new int[56];
-                    int k=0;
-                    while(!linesTable[i].equals("endOfPress")){
-                        pressTable[k]=Integer.parseInt(linesTable[i]);
-                        i++;
-                        k++;
-                    }
+                    long[] pressTable = new long[55];
+                    int n=0;
+                        for(n=0; n<pressTable.length; n++){
+                            pressTable[n]=Long.parseLong(linesTable[i+n]);
+                        }
+                    i+=n;
                 }
                 else{
                     i++;
