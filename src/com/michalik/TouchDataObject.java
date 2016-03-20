@@ -6,8 +6,8 @@ package com.michalik;
 public class TouchDataObject {
     private String date;
     private String ID;
-    private int[] release;
-    private int[] press;
+    private long[] release;
+    private long[] press;
 
     public void setDate(String date) {
         this.date = date;
@@ -17,19 +17,19 @@ public class TouchDataObject {
         this.ID = ID;
     }
 
-    public void setPress(int[] press) {
+    public void setPress(long[] press) {
         this.press = press;
     }
 
-    public void setRelease(int[] release) {
+    public void setRelease(long[] release) {
         this.release = release;
     }
 
-    public int[] getRelease() {
+    public long[] getRelease() {
         return release;
     }
 
-    public int[] getPress() {
+    public long[] getPress() {
         return press;
     }
 

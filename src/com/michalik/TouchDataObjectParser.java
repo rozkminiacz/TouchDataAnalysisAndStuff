@@ -47,6 +47,7 @@ public class TouchDataObjectParser {
                             releaseTable[n]=Long.parseLong(linesTable[i+n]);
                             System.out.println(releaseTable[n]);
                         }
+                    touchDataObject[j].setRelease(releaseTable);
                     i+=n;
 
                 }
@@ -57,14 +58,15 @@ public class TouchDataObjectParser {
                         for(n=0; n<pressTable.length; n++){
                             pressTable[n]=Long.parseLong(linesTable[i+n]);
                         }
+                    touchDataObject[j].setPress(pressTable);
                     i+=n;
                 }
                 else{
                     i++;
                 }
-            j++;
-            }
 
+            }
+            j++;
         }
         System.out.println(objectCounter);
         //objectcounter
