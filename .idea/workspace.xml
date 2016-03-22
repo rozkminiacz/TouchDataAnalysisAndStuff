@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97279028-f440-414f-8676-b3fba00b7a36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TouchDataAnalysis/com/michalik/Main.class" afterPath="$PROJECT_DIR$/out/production/TouchDataAnalysis/com/michalik/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TouchDataAnalysis/com/michalik/TouchDataObject.class" afterPath="$PROJECT_DIR$/out/production/TouchDataAnalysis/com/michalik/TouchDataObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/michalik/Main.java" afterPath="$PROJECT_DIR$/src/com/michalik/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/michalik/TouchDataObject.java" afterPath="$PROJECT_DIR$/src/com/michalik/TouchDataObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java" afterPath="$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java" />
     </list>
     <ignored path="TouchDataAnalysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +67,8 @@
       <file leaf-file-name="DownloadAndSaveData.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7760498">
-              <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.94401246">
+              <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#254#255#0" expanded="true" />
@@ -119,8 +114,8 @@
         <option value="$PROJECT_DIR$/src/com/michalik/ServerConnection.java" />
         <option value="$PROJECT_DIR$/src/com/michalik/TouchDataObjectParser.java" />
         <option value="$PROJECT_DIR$/src/com/michalik/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java" />
         <option value="$PROJECT_DIR$/src/com/michalik/TouchDataObject.java" />
+        <option value="$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java" />
       </list>
     </option>
   </component>
@@ -869,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7760498">
-          <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.94401246">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#254#255#0" expanded="true" />

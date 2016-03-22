@@ -79,7 +79,18 @@ public class DownloadAndSaveData {
     }
     public void saveObjectToFile(TouchDataObject touchDataObject){
         double bmp = touchDataObject.getBmpP();
-        //
+        /*
+        @TODO
+        katalogowanie odpowiednie plików - wg:
+        1. userID
+        2. BPM
+
+        konwencja:
+        nieparzyste - trzeźwe
+        parzyste - pijane/zmęczone
+        
+
+         */
 
     }
 }
