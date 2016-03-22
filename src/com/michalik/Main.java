@@ -7,7 +7,13 @@ import java.net.Socket;
 public class Main {
 
     public static void main(String[] args) {
+        /*
+        @TODO
+                utwórz katalog o name=userid
+                zapisz każdy pomiar do osobnego pliku
+                1,2,3,4, czy datą???
 
+        */
         /*
         pobierz z serwera
         przetłumacz na język tablic i stringów
@@ -29,11 +35,20 @@ public class Main {
 
                 //touchDataObjectParser.parseRawDataToObjects();
                 TouchDataObject[] touchDataObjects = touchDataObjectParser.parseRawDataToObjects();
+
                 for(int i=0; i< touchDataObjects.length; i++){
                     System.out.println("ID pomiaru: "+touchDataObjects[i].getID());
                     System.out.println("Data pomiaru: "+touchDataObjects[i].getDate());
-                    System.out.println("Press[17]: "+touchDataObjects[i].getPress()[17]);
+                    //System.out.println("Press[17]: "+touchDataObjects[i].getPress()[17]);
+                    touchDataObjects[i].countIntervals();
+                    touchDataObjects[i].countBPM();
+                    String f = touchDataObjects[i].parseForGnuplot();
+                    //System.out.println(f);
                 }
+                //save object ot file
+                //mkdir userID
+                //cd userID
+                //each file to separate
 
             } catch (IOException e) {
                 e.printStackTrace();
