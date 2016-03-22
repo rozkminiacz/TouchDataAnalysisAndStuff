@@ -77,9 +77,9 @@ public class TouchDataObject {
 
         double bpm=0;
         long startR = release[0];
-        long endR = release[9];
+        long endR = release[10];
         long startP = press[0];
-        long endP = press[9];
+        long endP = press[10];
         double bmpR = (double)endR - (double)startR;
         bmpR = bmpR / 1000;
         bmpR/=10; //średni okres jednego pomiaru

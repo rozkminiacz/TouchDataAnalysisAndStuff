@@ -19,42 +19,10 @@ public class Main {
         przetłumacz na język tablic i stringów
         przygotuj do wyświetlania w gnuplocie
          */
-        String dataFileNumber = "555";
-        String userID = "555";
+        String ID = "555";
 
-        if(!checkIntConnection()){
-            System.out.println("Cannot connect to internet");
-        }
-        else {
-            try {
-                ServerConnection serverConnection = new ServerConnection(userID);
-                serverConnection.setBaseURL("http://rozkmin.esy.es/touch/data" + dataFileNumber);
-                String rawData = serverConnection.updateTouchDataFiles();
-
-                TouchDataObjectParser touchDataObjectParser = new TouchDataObjectParser(rawData, userID);
-
-                //touchDataObjectParser.parseRawDataToObjects();
-                TouchDataObject[] touchDataObjects = touchDataObjectParser.parseRawDataToObjects();
-
-                for(int i=0; i< touchDataObjects.length; i++){
-                    System.out.println("ID pomiaru: "+touchDataObjects[i].getID());
-                    System.out.println("Data pomiaru: "+touchDataObjects[i].getDate());
-                    //System.out.println("Press[17]: "+touchDataObjects[i].getPress()[17]);
-                    touchDataObjects[i].countIntervals();
-                    touchDataObjects[i].countBPM();
-                    String f = touchDataObjects[i].parseForGnuplot();
-                    //System.out.println(f);
-                }
-                //save object ot file
-                //mkdir userID
-                //cd userID
-                //each file to separate
-
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-
+        DownloadAndSaveData downloadAndSaveData = new DownloadAndSaveData(ID);
+        downloadAndSaveData.doStuff();
 
     }
 
