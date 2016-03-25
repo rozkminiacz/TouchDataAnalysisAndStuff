@@ -1,6 +1,8 @@
 package com.michalik;
 
+import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 
@@ -34,6 +36,7 @@ public class DownloadAndSaveData {
                     touchDataObjects[i].countIntervals();
                     touchDataObjects[i].countBPM();
                     String f = touchDataObjects[i].parseForGnuplot();
+                    saveObjectToFile(touchDataObjects[i]);
                     //System.out.println(f);
                 }
                 //save object ot file
@@ -79,6 +82,50 @@ public class DownloadAndSaveData {
     }
     public void saveObjectToFile(TouchDataObject touchDataObject){
         double bmp = touchDataObject.getBmpP();
+        String dir = "";
+        /*
+        0-60, 60-80, 80-100, 100-120, 120-140, 140 - inf
+         */
+
+        if(bmp<50){
+            dir="veryslow";
+        }
+        if(bmp>=50 && bmp<90){
+            dir="50-90";
+        }
+        if(bmp>=90 && bmp<110){
+            dir="90-110";
+        }
+        if(bmp>=110 && bmp<130){
+            dir="110-130";
+        }
+        if(bmp>=130 && bmp<150){
+            dir="130-150";
+        }
+        if(bmp>=150 && bmp<190){
+            dir="150-190";
+        }
+        if(bmp>=160){
+            dir="veryfast";
+        }
+
+
+        try{
+            File file = new File(dir+"/"+touchDataObject.getID()+"/"+touchDataObject.getDate()+".dat");
+            file.getParentFile().mkdirs();
+
+            PrintWriter printWriter = new PrintWriter(file);
+            printWriter.print(touchDataObject.parseForGnuplot());
+            printWriter.flush();
+            printWriter.close();
+            //out.print(touchDataObject.parseForGnuplot());
+            //out.flush();
+            //out.close();
+        }
+        catch(IOException e){
+            e.printStackTrace();
+        }
+
         /*
         @TODO
         katalogowanie odpowiednie plików - wg:
@@ -88,7 +135,7 @@ public class DownloadAndSaveData {
         konwencja:
         nieparzyste - trzeźwe
         parzyste - pijane/zmęczone
-        
+
 
          */
 

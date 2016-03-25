@@ -153,7 +153,7 @@ public class TouchDataObject {
         System.out.println(tableTwo.length+" "+tableOne.length+" "+intervals.length);
         for(int i=0; i<tableTwo.length; i++){
 
-                gp+=tableTwo[i]+"\t"+tableOne[i]+"\t"+intervals[i];
+                gp+=tableTwo[i]+"\t"+tableOne[i]+"\t"+intervals[i]+"\n";
                 //System.out.println(gp);
             /*
             @TODO:
