@@ -25,7 +25,7 @@ public class DownloadAndSaveData {
                 String rawData = serverConnection.updateTouchDataFiles();
 
                 TouchDataObjectParser touchDataObjectParser = new TouchDataObjectParser(rawData, ID);
-
+                System.out.println("Data downloaded");
                 //touchDataObjectParser.parseRawDataToObjects();
                 TouchDataObject[] touchDataObjects = touchDataObjectParser.parseRawDataToObjects();
 
@@ -38,6 +38,7 @@ public class DownloadAndSaveData {
                     String f = touchDataObjects[i].parseForGnuplot();
                     saveObjectToFile(touchDataObjects[i]);
                     //System.out.println(f);
+
                 }
                 //save object ot file
                 //mkdir userID
@@ -121,6 +122,7 @@ public class DownloadAndSaveData {
             //out.print(touchDataObject.parseForGnuplot());
             //out.flush();
             //out.close();
+            System.out.println("Zapisano do pliku "+file.getPath());
         }
         catch(IOException e){
             e.printStackTrace();

@@ -67,7 +67,7 @@ public class TouchDataObjectParser {
             //touchDataObject[j].countIntervals();
 
         }
-        System.out.println(objectCounter);
+        System.out.println("Użytkownik wykonał "+objectCounter+" pomiarów");
         //objectcounter
         return touchDataObject;
     }

@@ -92,7 +92,7 @@ public class TouchDataObject {
         bmpP = 1/bmpP;
         bmpP*=60;
 
-        System.out.println(bmpR + "aaaaaaaaaaaaaaaaaa"+bmpP);
+        System.out.println("BPM: "+bmpR);
         /*double bmpR = ((double)endR - (double)startR)*1000;
         double bmpP = ((double)endP - (double)startP)*1000;
 
@@ -150,7 +150,7 @@ public class TouchDataObject {
         for(int i=0; i<tableTwo.length-1; i++){
             tableTwo[i]=(int)(press[i+1]-press[i]);
         }
-        System.out.println(tableTwo.length+" "+tableOne.length+" "+intervals.length);
+        //System.out.println(tableTwo.length+" "+tableOne.length+" "+intervals.length);
         for(int i=0; i<tableTwo.length; i++){
 
                 gp+=tableTwo[i]+"\t"+tableOne[i]+"\t"+intervals[i]+"\n";
