@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97279028-f440-414f-8676-b3fba00b7a36" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TouchDataAnalysis/com/michalik/DownloadAndSaveData.class" afterPath="$PROJECT_DIR$/out/production/TouchDataAnalysis/com/michalik/DownloadAndSaveData.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TouchDataAnalysis/com/michalik/Main.class" afterPath="$PROJECT_DIR$/out/production/TouchDataAnalysis/com/michalik/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TouchDataAnalysis/com/michalik/TouchDataObject.class" afterPath="$PROJECT_DIR$/out/production/TouchDataAnalysis/com/michalik/TouchDataObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TouchDataAnalysis/com/michalik/TouchDataObjectParser.class" afterPath="$PROJECT_DIR$/out/production/TouchDataAnalysis/com/michalik/TouchDataObjectParser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java" afterPath="$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/michalik/Main.java" afterPath="$PROJECT_DIR$/src/com/michalik/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/michalik/TouchDataObject.java" afterPath="$PROJECT_DIR$/src/com/michalik/TouchDataObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/michalik/TouchDataObjectParser.java" afterPath="$PROJECT_DIR$/src/com/michalik/TouchDataObjectParser.java" />
     </list>
     <ignored path="TouchDataAnalysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/michalik/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.39130434">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#checkIntConnection#0;class#Main#0" expanded="false" />
@@ -70,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DownloadAndSaveData.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DownloadAndSaveData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9130435">
-              <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#checkIntConnection#0;class#DownloadAndSaveData#0" expanded="false" />
@@ -129,10 +123,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/michalik/ServerConnection.java" />
-        <option value="$PROJECT_DIR$/src/com/michalik/Main.java" />
         <option value="$PROJECT_DIR$/src/com/michalik/TouchDataObject.java" />
         <option value="$PROJECT_DIR$/src/com/michalik/TouchDataObjectParser.java" />
         <option value="$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java" />
+        <option value="$PROJECT_DIR$/src/com/michalik/Main.java" />
       </list>
     </option>
   </component>
@@ -273,10 +267,10 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.michalik.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="555" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -586,7 +580,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28330892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31308413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31308413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -976,24 +970,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michalik/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#checkIntConnection#0;class#Main#0" expanded="false" />
+            <element signature="method#checkIntConnection#0;class#DownloadAndSaveData#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michalik/DownloadAndSaveData.java">
+    <entry file="file://$PROJECT_DIR$/src/com/michalik/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9130435">
-          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.39130434">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#checkIntConnection#0;class#DownloadAndSaveData#0" expanded="false" />
+            <element signature="method#checkIntConnection#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>

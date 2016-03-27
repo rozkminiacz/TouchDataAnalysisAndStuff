@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String ID = "555";
+        String ID = args[0];
 
         DownloadAndSaveData downloadAndSaveData = new DownloadAndSaveData(ID);
         downloadAndSaveData.doStuff();
