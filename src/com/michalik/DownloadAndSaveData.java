@@ -112,8 +112,12 @@ public class DownloadAndSaveData {
 
 
         try{
-            File file = new File(dir+"/"+touchDataObject.getID()+"/"+touchDataObject.getDate()+".dat");
-            file.getParentFile().mkdirs();
+            String d = touchDataObject.getDate().replaceAll("/", "-");
+            d = d.replaceAll(" ", "-");
+            d = d.replaceAll(":", "-");
+            System.out.println(d);
+            File file = new File(dir+"-"+touchDataObject.getID()+"-"+d+".dat");
+            //file.getParentFile().mkdirs();
 
             PrintWriter printWriter = new PrintWriter(file);
             printWriter.print(touchDataObject.parseForGnuplot());
